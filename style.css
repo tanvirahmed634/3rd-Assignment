@@ -1,0 +1,178 @@
+html{
+    font-size: 1em;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.clearfix{
+    clear: both;
+}
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+header{
+    height: 70px;
+    font-size: 1.29em;
+    margin-top: 32px;
+}
+header img{
+    float: left;
+    width: 20%;
+    height: 50px;
+    margin-left: -110px;
+}
+nav{
+    margin-left: 830px;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+nav ul li a:hover{
+    color: blue;
+}
+nav ul li:last-child button{
+    padding: 12px 18px;
+    color: blue;
+    background-color: white;
+    border-color: blue;
+    font-size: .85em;
+    border-radius: 30px;
+    font-weight: 550;
+    cursor: pointer;
+    margin-right: -70px;
+
+}
+nav ul li:last-child button:hover{
+    color: white;
+    background-color: blue;
+}
+#herosec{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 80px;
+}
+#herosec p{
+    font-size: .78em;
+}
+#herosec img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+#herosec img:last-child{
+    margin-top: 90px;
+}
+#featuresec{
+    background-color: blueviolet;
+    height: 620px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    padding-top: 100px;
+}
+#featuresec p{
+    padding: 0 340px;
+    font-size:.87em;
+}
+#contentbox .container{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    width: 88%;
+    margin-top: -160px;
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: 2px 2px 5px blueviolet;
+}
+#contentbox ul li{
+    list-style: none;
+    font-size: 1.2em;
+    margin-left: -40px;
+}
+.singlebox{
+    width: 33.33%;
+    border-right: 1px solid blueviolet;
+    padding: 80px 30px;
+}
+.singlebox:last-child{
+    border-right: 0;
+}
+.singlebox h3{
+    font-size: 1.5em;
+}
+.singlebox p{
+    font-size: 1.2em;
+    margin-bottom: 62px;
+}
+.singlebox h4{
+    font-size: 1.2em;
+    color: blueviolet;
+}
+#worksec .container{
+    text-align: center;
+    margin-top: 150px;
+    width: 88%;
+}
+#worksec h2{
+    font-size: 1.9em;
+}
+#worksec p{
+    font-size: 1.3em;
+}
+#worksec p a{
+    color: blue;
+    text-decoration: none;
+}
+.website{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 25px;
+}
+.website [class*="item"] img{
+    width: 100%;
+    border-radius: 15px;
+}
+#worksec button{
+    padding: 12px 40px;
+    background-color: white;
+    border-color: blue;
+    font-size: 1.3em;
+    border-radius: 30px;
+    margin-top: 90px;
+}
+#worksec button a{
+    text-decoration: none;
+    color: blue;
+}
+#worksec button:hover{
+    background-color: blue;
+}
+#worksec button a:hover{
+    color: white;
+}
+footer{
+    background-color: blueviolet;
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+}
+footer ul li{
+    list-style: none;
+    display: inline;
+}
+footer ul li a{
+    color: white;
+    font-size: 30px;
+}
